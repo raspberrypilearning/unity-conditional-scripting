@@ -1,59 +1,29 @@
-## Introduction
+In C# you can use if/else statements to check conditions:
 
-Add project description here. What will learners be making? Broadly what skills will they be learning?
+```
+if (condition1)
+{
+  // code to run if condition1 is True
+} 
+else if (condition2) 
+{
+  // code to run if condition1 is false and condition2 is True
+} 
+else
+{
+  // code to run if condition1 and condition2 are False
+}
+```
+ 
+You can use comparison operators to compare variables, numbers and strings: `<` `>` `==`.
 
-### What you will make
+You can join conditions together using **Boolean and** `&&` and **Boolen or** `||`.
 
---- no-print ---
-Add instructions for interacting with the embedded content here.
+Example:
 
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
-</div>
---- /no-print ---
+if(transform.position.x < minPosition || transform.position.x > maxPosition)
+{
+    transform.Rotate(0, 180, 0); //turn around
+}
 
---- print-only ---
-![Complete project](images/showcase_static.png)
---- /print-only ---
-
---- collapse ---
----
-title: What you will need
----
-### Hardware
-
-+ A computer or tablet capable of running Scratch 3
-
-### Software
-
-+ Scratch 3 (either [online](https://scratch.mit.edu/){:target="_blank"} or [offline](https://scratch.mit.edu/download){:target="_blank"})
-+ Python 3
-+ This project can be completed in a web browser using [trinket.io](https://trinket.io/)
-
-### Downloads
-
-+ Download the project [starter file](http://rpf.io/p/en/projectName-go){:target="_blank"} if working offline
-
---- /collapse ---
-
---- collapse ---
----
-title: What you will learn
----
-
-+ Learning objective 1
-+ Learning objective 2
-+ Learning objective 3
-
---- /collapse ---
-
---- collapse ---
----
-title: Additional information for educators
----
-
-You can download the completed project [here](http://rpf.io/p/en/projectName-get){:target="_blank"}.
-
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/projectName/print){:target="_blank"}.
-
---- /collapse ---
+![An animated gif of a car in Game view turning 180 degrees when it reaches a min OR max position.](images/car-patrol.gif)
