@@ -17,13 +17,15 @@ else
  
 You can use comparison operators to compare variables, numbers and strings: `<` `>` `==`.
 
-You can join conditions together using **Boolean and** `&&` and **Boolen or** `||`.
+You can join conditions together using **Boolean and** `&&` and **Boolean or** `||`.
 
 Example:
 
+```
 if(transform.position.x < minPosition || transform.position.x > maxPosition)
 {
-    transform.Rotate(0, 180, 0); //turn around
+    transform.Rotate(0, 180, 0); // turn around
 }
+```
 
 ![An animated gif of a car in Game view turning 180 degrees when it reaches a min OR max position.](images/car-patrol.gif)
