@@ -1,0 +1,7 @@
+code to run if condition1 is True
+
+code to run if condition1 is false and condition2 is True
+
+code to run if condition1 and condition2 are False
+
+turn around
