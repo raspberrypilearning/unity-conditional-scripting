@@ -1,4 +1,4 @@
-In C# you can use if/else statements to check conditions:
+En C#, tu peux utiliser des instructions if/else pour vérifier des conditions :
 
 --- code ---
 ---
@@ -18,13 +18,13 @@ else
 
 --- /code ---
 
-You can use comparison operators to compare variables, numbers and strings: `<` `>` `==`.
+Tu peux utiliser des opérateurs de comparaison pour comparer des variables, des nombres et des chaînes de caractères : `<` `>` `==`.
 
-You can negate conditions using `!` so `!hasItem` is True if `hasItem` is False.
+Tu peux annuler des conditions en utilisant `!`, ainsi `!hasItem` est vrai si `hasItem` est faux.
 
-You can join conditions together using **Boolean and** `&&` and **Boolean or** `||`.
+Tu peux joindre des conditions ensemble en utilisant **Booléen et** `&&` et **Booléen ou** `||`.
 
-Example:
+Exemple :
 
 --- code ---
 ---
@@ -36,4 +36,4 @@ if(transform.position.x < minPosition || transform.position.x > maxPosition)
 }
 --- /code ---
 
-![An animated gif of a car in Game view turning 180 degrees when it reaches a min OR max position.](images/car-patrol.gif)
+![Un gif animé d'une voiture en vue Game qui tourne à 180 degrés lorsqu'elle atteint une position minimale ou maximale.](images/car-patrol.gif)
