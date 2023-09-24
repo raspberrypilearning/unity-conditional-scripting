@@ -1,7 +1,7 @@
-code to run if condition1 is True
+code die moet worden uitgevoerd als voorwaarde1 waar is
 
-code to run if condition1 is false and condition2 is True
+code die moet worden uitgevoerd als voorwaarde1 onwaar is en voorwaarde2 waar is
 
-code to run if condition1 and condition2 are False
+code die moet worden uitgevoerd als voorwaarde1 en voorwaarde2 onwaar zijn
 
-turn around
+keer om
