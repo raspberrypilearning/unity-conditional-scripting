@@ -1,0 +1,7 @@
+code à exécuter si la condition 1 est vraie
+
+code à exécuter si la condition1 est fausse et la condition2 est vraie
+
+code à exécuter si la condition1 et la condition2 sont fausses
+
+demi-tour
