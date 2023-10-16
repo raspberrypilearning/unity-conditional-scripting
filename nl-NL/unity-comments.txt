@@ -1,0 +1,7 @@
+code die moet worden uitgevoerd als voorwaarde1 waar is
+
+code die moet worden uitgevoerd als voorwaarde1 onwaar is en voorwaarde2 waar is
+
+code die moet worden uitgevoerd als voorwaarde1 en voorwaarde2 onwaar zijn
+
+keer om
