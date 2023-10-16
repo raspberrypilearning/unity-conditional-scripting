@@ -1,4 +1,4 @@
-code à exécuter si la condition 1 est vraie
+code à exécuter si la condition1 est vraie
 
 code à exécuter si la condition1 est fausse et la condition2 est vraie
 
