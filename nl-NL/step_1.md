@@ -22,7 +22,7 @@ else
 
 Je kunt vergelijkingsoperatoren gebruiken om variabelen, getallen en strings te vergelijken: `<` `>` `==`.
 
-Je kunt voorwaarden tenietdoen met `!` dus `!hasItem` is True als `hasItem` False is.
+Je kunt voorwaarden omkeren met `!` dus `!hasItem` is True als `hasItem` False is.
 
 Je kunt voorwaarden samenvoegen met **Boolean en** `&&` en **Boolean of** `||`.
 
